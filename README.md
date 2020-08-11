@@ -62,6 +62,7 @@ It is also recommended to [set up Kubernetes Dashboard](https://aws.amazon.com/p
 
 ### Default Airflow Image
 ```console
+$ make ns #Creates namespace for easy build and teardown
 $ make deploy
 ```
 At this point you should see the stack deployed to kubernetes.<br>
